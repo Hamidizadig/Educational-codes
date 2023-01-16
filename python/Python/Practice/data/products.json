@@ -1,0 +1,61 @@
+[{
+    "productCode": 1,
+    "productName":"CPU",
+    "price":1450000,
+    "productGroupName":"Computer"
+ },
+ {
+    "productCode": 2
+    "productName":"CP",
+    "price":1450000,
+    "productGroupName":"puter"
+ },
+ {
+    "productCode": 3,
+    "productName":"CU",
+    "price":1450000,
+    "productGroupName":"Com"
+ },
+ {
+    "productCode": 4,
+    "productName":"RAM",
+    "price":1450000,
+    "productGroupName":"Coter"
+ },{
+    "productCode": 5,
+    "productName":"PU",
+    "price":1450000,
+    "productGroupName":"Mobile"
+ }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// productList=[
+//     Product(1,'CPU',145,'Computer')
+//             ]              
+// class Shop:
+//     def __init__(self):
+//         self.customerList=[] 
+// customerList=[    
+//     Customer(1,'anaxis','shmitz','0171111111'),
+//     Customer(2,'kimis','wotz','0171152111')
+//              ]
+// products=[]
+    

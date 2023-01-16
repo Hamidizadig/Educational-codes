@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    .box1 {
+      width: 100px;
+      height: 100px;
+      margin: 10px;
+      position: relative;
+      background: red;
+      /* animation: animation1 2s infinite; */
+      /* animation-name: animation2;
+      animation-delay: 1s;
+      animation-duration: 2s;
+      animation-direction: alternate-reverse;
+      animation-iteration-count: 3;
+      animation-timing-function:ease-out ;
+      animation-play-state: running; */
+      animation: animation3 2s infinite;
+    }
+
+    img {
+      width: 400px;
+      height: 400px;
+      position: relative;
+      animation: animation1 2s infinite;
+    }
+
+    @keyframes animation1 {
+      from {
+        left: 0px;
+      }
+
+      to {
+        left: 500px;
+      }
+    }
+
+    @keyframes animation2 {
+      from {
+        left: 0px;
+      }
+
+      to {
+        left: 1000px;
+      }
+    }
+
+    @keyframes animation3 {
+      0% {
+        left: 0px;
+        top: 0px;
+      }
+
+      25% {
+        left: 400px;
+        top: 0px;
+        background-color: seagreen;
+      }
+
+      50% {
+        left: 400px;
+        top: 400px;
+        background-color: yellow
+      }
+
+      100% {
+        left: 0px;
+        top: 0px;
+        background-color: red;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box1"></div>
+  <!-- <img src="../images/img/p21.jpg" alt=""> -->
+</body>
+
+</html>

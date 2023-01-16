@@ -1,0 +1,19 @@
+{
+    "billCode":1,
+    "billDate":"2020-01-01",
+    "customerCode":1000,
+    "orderDetails":[
+        {
+            "billDetailCode":1,
+            "billCode":1,
+            "productCode":34,
+            "ProductCount:5
+        },
+        {
+            "billDetailCode":2,
+            "billCode":1,
+            "productCode":100,
+            "ProductCount:8
+        }
+    ]
+}

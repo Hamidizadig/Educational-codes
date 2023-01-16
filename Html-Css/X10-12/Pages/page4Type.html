@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+
+<body dir="ltr">
+    <form action="../page3.html" method="get">
+        <input type="trxt" disabled id="fname" name="fname" placeholder="name" /><br>
+        <input type="trxt" readonly id="lname" lname="fname" placeholder="Family" size="50" maxlength="6" /><br>
+        <input type="number" required min="1" max="100" placeholder="age" id="num" name="num" /><br>
+        <input type="password" name="pasword" min="4" max="28" placeholder="Password" id="pass" name="pass" /><br>
+        <input type="email" name="pasword" min="4" max="28" placeholder="email" id="mail" name="mail" /><br>
+        <input type="date" name="startdate" id="date" name="date" /><br>
+        <input type="hidden" name="oldPass" value=" 1000" id="hidden" name="hidden" />
+        <input type="color" name="color" id="color1" name="color1" /><br>
+
+        <input type="checkbox" name="chk1" value="1" checked /> red<br>
+        <input type="checkbox" name="chk2" value="10" /> blue<br>
+        <input type="checkbox" name="chk3" value="15" checked /> green<br>
+        <input type="checbox" name="chk4" value="20" checked /> yellow<br>
+
+        <input type="radio" name="rg1" value="1" />red<br>
+        <input type="radio" name="rg1" value="2" checked />blue<br>
+        <input type="radio" name="rg2" value="10" />yellow<br>
+        <input type="radio" name="rg2" value="11" checked />white<br>
+
+        address:<br> <textarea rows="3" cols="30" placeholder="address" name="address"></textarea><br>
+        explain<br><textarea></textarea><br />
+        <select name="stattCode">
+            <option value="1">kiel</option>
+            <option value="2" selected>Hamburg</option>
+            <option value="3">bon</option>
+            <option value="4">stuttgart</option>
+        </select><br>
+
+        <input type="submit" value="register" />
+    </form>
+</body>
+
+</html>

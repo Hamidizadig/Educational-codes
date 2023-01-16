@@ -1,0 +1,44 @@
+[
+{
+    "customerId":10000,
+    "name":"simmas",
+    "family":"simonasix",
+    "mobileNumber":"017588888"
+},
+
+{
+    "customerId":1000,
+    "name":"simmaxus",
+    "family":"simonasi",
+    "mobileNumber":"017588888"
+},
+
+{
+    "customerId":10002,
+    "name":"simman",
+    "family":"simonas",
+    "mobileNumber":"017588888"
+},
+
+{
+    "customerId":10003,
+    "name":"simmar",
+    "family":"simonasia",
+    "mobileNumber":"017588888"
+},
+
+{
+    "customerId":10004,
+    "name":"simmaf",
+    "family":"simona",
+    "mobileNumber":"017588888"
+},
+
+{
+    "customerId":10005,
+    "name":"simmap",
+    "family":"simonasiux",
+    "mobileNumber":"017588888"
+}
+
+]

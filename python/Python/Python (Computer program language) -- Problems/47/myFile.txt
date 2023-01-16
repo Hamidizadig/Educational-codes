@@ -1,0 +1,4 @@
+Enter a sentence: Python is a high level language.
+Enter a sentence: C# is a good language.
+Enter a sentence: C++ is a very good language.
+Enter a sentence:xxxxxx

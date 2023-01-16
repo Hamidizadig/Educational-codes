@@ -1,0 +1,40 @@
+from reprlib import aRepr
+import numpy as np
+# print(np.__version__)
+
+list1 = [54, 45, 45, 4]
+list2 = [[1, 2], [3], [5]], [[1], [6], [9]]
+list3 = [[[1, 2], [3], [5]], [[1], [6], [9]], [[4], [1], [1, 2]]]
+tuple1 = (5, 4, 5, 9, 8, 7, 6, 2, 0, 5)
+arr1 = np.array(list1)
+arr2 = np.array(tuple1)
+arr3 = np.array(100)
+list2 = [[1, 2, 3], [4, 5, 6]]
+print(list1)
+print('-------------------------------')
+print(tuple1)
+print('-------------------------------')
+print(arr1)
+print('-------------------------------')
+print(arr2)
+
+arr1 = np.array(list1)
+arr2 = np.array(list2)
+arr3 = np.array(list3)
+# print(arr1)
+# print('-------------------------------')
+# print(arr2)
+# print('-------------------------------')
+# print(arr3)
+
+print(arr1.ndim)
+print('-------------------------------')
+print(arr2.ndim)
+print('-------------------------------')
+print(arr3.ndim)
+print(list1[2])
+print(arr1[2])
+print(list3[1][0][0])
+print(arr3[1][0][0])
+# print(arr2[1,0])
+# print(arr3[0,0,0])

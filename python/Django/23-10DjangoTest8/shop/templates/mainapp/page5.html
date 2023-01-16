@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv="V-UA-Compatible" content="IE=edge">
+    <meta name='viewport' content="with=device-with, initial-scale=1.0">
+    <title> page 5.</title>
+    <style>
+        li{
+            color:#f00;
+        }
+</head>
+<body>
+    
+    
+{% comment %}     
+    <ul>
+    {% for iten in names %}
+        {% comment %} <h6>{{item}}</h6> {% endcomment %}
+{% comment %}         
+        <li>{{item}}</li>
+    {% endfor %}
+    </ul>  
+ {% endcomment %}
+
+
+{% comment %}    
+    {% for i in range %}
+        <div>Hello_{{i}}_</div>
+    {% endfor %}
+ {% endcomment %}
+
+{% comment %} 
+    {% for item in list1 %}
+        <h1>{{item}}</h1>
+    {% empty %}
+        <h1>empty list</h1>
+    {% endfor %}
+ {% endcomment %}
+
+
+{% comment %} 
+    {% for i in range %}
+        <div>Hello_{{i}}</div>
+    {% endfor %} {% endcomment %}
+
+{% comment %} 
+
+    {% for i in range %}
+        <div>Hello_{{forloop.counter}}</div>
+    {% endfor %} {% endcomment %}
+
+
+    
+
+    {% for i in range %}
+        <div>Hello_{{forloop.first}}</div>
+    {% endfor %}
+</body>
+</html>
